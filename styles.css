@@ -1,0 +1,47 @@
+#pageBody{
+    background-color: rgb(78, 228, 255);
+}
+
+#topBar{
+    background-color: orange;
+    width: 110%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    right: 10px;
+    bottom: 21px;
+}
+
+#addButton{
+    width: 10em;
+    height: 2em;
+    font-size: 24px;
+}
+
+#mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+.bookCard{
+    width: 300px;
+    font-size: 18px;
+    background-color: yellow;
+    align-content: center;
+    text-align: center;
+    border-color: black;
+    border-radius: 30px;
+    border-style: solid;
+    padding-bottom: 20px;
+}
+
+.bookCard > button{
+    height: 40px;
+    margin-left: 10px;
+}
